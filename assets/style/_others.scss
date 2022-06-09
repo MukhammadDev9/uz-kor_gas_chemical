@@ -1,0 +1,69 @@
+:root{
+  --maxWidth: 1280px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  &::-webkit-scrollbar {
+    width: 6px; /* width of the entire scrollbar */
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent; /* color of the tracking area */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #176faa, #11527d); /* color of the scroll thumb */
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icon{
+  cursor: pointer;
+  color: #fff ;
+  transform: scale(1.3);
+
+  &:hover{
+    transform: scale(1.45);
+  }
+}
+
+button{
+  border: none;
+  cursor: pointer;
+}
+
+button,
+input,
+textarea,
+select,
+option {
+  outline: none;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+@mixin d-flex($align, $justify, $direction) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
+
+html{
+  scroll-behavior: smooth;
+}

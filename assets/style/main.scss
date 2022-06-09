@@ -1,0 +1,81 @@
+@import "_others";
+
+.wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-image: url("../image/parallax_bg/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  ._next {
+    max-width: var(--maxWidth);
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+
+    .navbar {
+      width: 100vw;
+      height: 50px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(to bottom, #176faa, #11527d);
+
+      &_row {
+        max-width: var(--maxWidth);
+        height: 100%;
+        margin: auto;
+        @include d-flex(center, space-between, row);
+
+        .icons {
+          @include d-flex(center, center, row);
+
+          li:not(:first-child) {
+            margin-left: 20px;
+          }
+        }
+
+        .search_area {
+          width: 200px;
+          height: 25px;
+          border-radius: 7px;
+          background: #fff;
+          overflow: hidden;
+          @include d-flex(center, center, row);
+          padding: 3px;
+
+          .search {
+            width: 100%;
+            border: none;
+            padding: 5px 0 5px 10px;
+            font-size: 15px;
+            font-weight: 550;
+            // color: rgb(39, 31, 31);
+
+            &::placeholder{
+                font-size: 12px;
+                font-style: italic;
+            }
+          }
+          label {
+            margin-left: 5px;
+            padding: 0 7px 0 10px;
+            border-left: 1.5px solid rgba(0, 0, 0, 0.439);
+
+            i{
+                color: #000;
+                transform: scale(0.9);
+                opacity: .8;
+            }
+          }
+        }
+      }
+    }
+  }
+}
