@@ -1,0 +1,127 @@
+body._pc .menu_list > li:hover .menu_sub-list {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0px, 0px);
+  pointer-events: all;
+}
+
+body._touch {
+  .menu_arrow {
+    display: block !important;
+    width: 0;
+    height: 0;
+    transition: transform 0.3s ease 0s;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #fff;
+    margin-left: 5px;
+  }
+
+  .menu_list > li {
+    @include d-flex(center, none, none);
+  }
+
+  .menu_link {
+    flex: 1 1 auto;
+  }
+}
+
+#hours,
+#logo {
+  @include d-flex(center, center, row);
+}
+
+#logo {
+  margin: 0 20px 0 -3px;
+  height: 100%;
+  padding: 0 10px 5px 10px;
+  background: #fff;
+  img {
+    width: 100%;
+    height: 35px;
+  }
+}
+
+#hours {
+  width: 200px;
+  height: 70px;
+  border: 1px solid var(--mainColor);
+  border-top: 0;
+  color: var(--mainColor);
+  font-weight: 600;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  user-select: none;
+  border-radius: 6px;
+  overflow: hidden;
+  @include d-flex(center, space-between, column);
+
+  .md {
+    width: 100%;
+    // height: 35%;
+    background: var(--mainColor);
+    color: #fff;
+    font-size: 11px;
+    padding: 3px 5px;
+  }
+  .time {
+    width: 100%;
+    height: 100%;
+    padding: 3px 5px;
+    @include d-flex(center, space-between, row);
+    
+    span:first-child{
+        font-weight: 500;
+        font-size: 12px;
+    }
+    span:last-child{
+        font-size: 16px;
+    }
+  }
+}
+
+.link {
+  color: #551a8b;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.bold{
+  font-family: var(--fontLato);
+  font-weight: 600;
+}
+
+.border_left{
+  border-left: 1px solid var(--mainLightColor);
+}
+
+.blue{
+  color: var(--mainLightColor);
+}
+
+.head{
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--mainLightColor);
+  padding-bottom: 3px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: var(--fontRoboto);
+}
+
+.main_content{
+  background: #fff;
+  padding: 10px 30px 20px 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.date{
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}

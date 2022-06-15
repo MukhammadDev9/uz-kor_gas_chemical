@@ -19,17 +19,37 @@
 
             <navbar class="navbar">
                 <div class="navbar_row">
-                    <ul class="icons">
-                        <li class="icon">
-                            <a href="./index.html" class="fa-solid fa-house-chimney"></a>
-                        </li>
-                        <li class="icon">
-                            <a href="#" class="fa-solid fa-sitemap"></a>
-                        </li>
-                        <li class="icon">
-                            <a href="#" class="fa-solid fa-envelope"></a>
-                        </li>
-                    </ul>
+                    <div class="item_left">
+                        <a href="index.html" id="logo">
+                            <img src="./assets/image/logotypes/logotype.png" alt="logo">
+                        </a>
+                        <nav class="menu_body">
+                            <ul class="menu_list">
+                                <li><a href="index.html" class="menu_link menu_hover-link">Главная</a></li>
+                                <li>
+                                    <a href="#" class="menu_link">О компании</a>
+                                    <span class="menu_arrow"></span>
+                                    <ul class="menu_sub-list">
+                                        <li><a href="#" class="menu_sub-link">ИСМ</a></li>
+                                        <li><a href="#" class="menu_sub-link">Международная аккредитация</a></li>
+                                        <li><a href="#" class="menu_sub-link">Руководство компании</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu_link">Продукция</a>
+                                    <span class="menu_arrow"></span>
+                                    <ul class="menu_sub-list">
+                                        <li><a href="#" class="menu_sub-link">Полиэтилен высокой плотности</a></li>
+                                        <li><a href="#" class="menu_sub-link">Полипропилен</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="menu_link menu_hover-link">Деятельность</a></li>
+                                <li><a href="#" class="menu_link menu_hover-link">Тендеры</a></li>
+                                <li><a href="#" class="menu_link menu_hover-link">Вакансии</a></li>
+                                <li><a href="#" class="menu_link menu_hover-link">Обратная связь</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                     <form class="search_area">
                         <input id="search" class="search" type="text" placeholder="Поиск...">
                         <label for="search"><i class="fa-solid fa-magnifying-glass icon"></i></label>
@@ -39,10 +59,583 @@
 
             <!-- Navbar - End -->
 
+            <!-- Header - Start -->
+
+            <header class="header">
+                <div class="header_container">
+                    <div class="header_top">
+                        <div class="banner">
+                            <a href="https://uzex.uz/ru/trade/offerscurrency">
+                                <img src="./assets/image/banner/banner.jpg" alt="banner">
+                            </a>
+                            <div class="banner_content">
+                                <h3>Информацию по вопросам приобретения и цены на продукцию</h3>
+                                <h4>можно получить на сайте <a href="https://uzex.uz/ru/trade/offerscurrency"
+                                        class="banner_link">Узбекской республиканской товарно-сырьевой биржи uzex.uz</a>
+                                    </h3>
+                            </div>
+                        </div>
+
+                        <div class="item_right">
+                            <div id="hours">
+                                <div class="md"></div>
+                                <div class="time">
+                                    <span>Ташкент <br>UZ</span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="email_links">
+                                <div class="email_link">
+                                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                                    <a href="#" class="link">Корпоративная почта</a>
+                                </div>
+                                <div class="email_link">
+                                    <a href="#"><i class="fa-solid fa-square-rss"></i></a>
+                                    <a href="#" class="link">RSS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_bottom">
+                        <div class="about_us main_content">
+                            <h2 class="head">О нас</h2>
+                            <div class="about_us_content">
+                                <div class="about_us_img">
+                                    <img src="assets/image/about_us/sotrudnichestvo.jpg" alt="about_us">
+                                </div>
+                                <ul class="about_us_list">
+                                    <li>
+                                        <p>В рамках развития двустороннего сотрудничества между Республикой Узбекистан и
+                                            Республикой Корея, Национальной Холдинговой Компанией <span class="bold">
+                                                «Узбекнефтегаз»</span> и Консорциумом корейских компаний на паритетной
+                                            основе было учреждено совместное предприятие в форме Общества с ограниченной
+                                            ответственностью <span class="bold">«Uz-Kor Gas Chemical»</span>.</p>
+                                    </li>
+                                    <li>
+                                        <p>Проект символизирует стратегическое сотрудничество между Республикой Корея и
+                                            Республикой Узбекистан.</p>
+                                    </li>
+                                    <li>
+                                        <p>Проект является одним из крупнейших инвестиционных вложений Корейских
+                                            компаний во всем Центральноазиатском регионе.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Header - End -->
+
+            <!-- Main - Start -->
+
+            <main class="main">
+                <div class="tenders main_content">
+                    <h2 class="head">Тендеры</h2>
+                    <ul class="tenders_list">
+                        <li>
+                            <a href="#" class="link">Приглашение на участие в Конкурсном отборе №CS-167-22 на
+                                оказание услуг по проведению аэродинамических испытании и паспортизации систем
+                                вентиляции УГХК</a>
+                            <p class="date">2022-06-08</p>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                Приглашение на участие в Конкурсном отборе №CS-163-22 для проведения диагностики
+                                силовых кабельных систем 35кВ и 10кВ методом измерения частичных разрядов (ЧР) в
+                                УГХК</a>
+                            <p class="date">2022-06-08</p>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                Приглашение на участие в Конкурсном отборе №CS-164-22 на проведение услуг по
+                                проверку контурных заземлений и испытания электрооборудования на промысла Сургиль и
+                                УГХК</a>
+                            <p class="date">2022-06-07</p>
+                        </li>
+                        <li>
+                            <a href="#" class="link">Приглашение на участие Конкурсные отборы на оказание услуг по
+                                страхованию</a>
+                            <p class="date">2022-06-06</p>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                Приглашение на участие в Конкурсном отборе №CS-159/2022 на оказание услуг по
+                                проведению тестирования анализов на определение антител IgG к COVID-19 с выдачей
+                                результатов исследования</a>
+                            <p class="date">2022-06-03</p>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                CП ООО «Uz-Kor Gas Chemical» объявляет открытый тендер №-24/2022 по выполнению работ
+                                монтажа и демонтажа радиантных труб и тетра фитингов для 3-х печей пиролиза цеха по
+                                производству этилена</a>
+                            <p class="date">2022-06-02</p>
+                        </li>
+                        <li>
+                            <a href="#" class="link">CП ООО «Uz-Kor Gas Chemical» объявляет открытый тендер
+                                №T-29/2022 на поставку необходимых запасных частей и измерительных приборов</a>
+                            <p class="date">2022-06-01</p>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                Приглашение на участие в Конкурсном отборе №CS 24-13 на оказание услуг по разработке
+                                методики расчета нормируемых расходов водопотребления, водоотведения и
+                                топливно-энергетических ресурсов</a>
+                            <p class="date">2022-05-30</p>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                Приглашение на участие в Конкурсном отборе №Admin-007 на предоставление услуг по
+                                приобретению авиа и ж/д билетов, и других туруслуг на 2022-2023г.</a>
+                            <p class="date">2022-05-25</p>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                CП ООО «Uz-Kor Gas Chemical» объявляет открытый тендер №T-07/2022 с «24» мая 2022г.
+                                на поставку 350 тонн стреч-худ пленки для покрытия готовой продукции согласно
+                                техническому заданию.</a>
+                            <p class="date">2022-05-24</p>
+                        </li>
+                    </ul>
+                    <div class="all_tenders">
+                        <a href="#" class="link">Все тендеры</a>
+                    </div>
+                </div>
+                <div class="news main_content">
+                    <div class="news_content">
+
+                        <h2 class="head">Новости</h2>
+                        <div class="slider">
+
+                            <div class="slide_one slide">
+                                <ul class="slide_list">
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">НОВОГОДНЯЯ БЛАГОТВОРИТЕЛЬНАЯ АКЦИЯ</a>
+                                            </li>
+                                            <li>
+                                                <p class="date">11 января 2021</p>
+                                            </li>
+                                            <li>
+                                                <p class="bold">«Как сделать мир лучше»</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">Инвалидам вручены подарки</a>
+                                            </li>
+                                            <li>
+                                                <p class="date">26 ноября 2020</p>
+                                            </li>
+                                            <li>
+                                                <p class="bold"> СП ООО «Uz-Kor Gas Chemical» организовало
+                                                    благотворительную встречу в Обществе инвалидов Ходжейлийского
+                                                    района.</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">Благотворительная помощь компании</a>
+                                            </li>
+                                            <li>
+                                                <p class="date">26 ноября 2020</p>
+                                            </li>
+                                            <li>
+                                                <p class="bold">В период пандемии коронавируса из-за карантинных
+                                                    ограничений многие граждане остались без источников дохода,
+                                                    увеличилось количество семей, нуждающихся в материальной поддержке.
+                                                    СП ООО «Uz-Kor Gas Chemical» оказало безвозмездную помощь
+                                                    малообеспеченным семьям и людям с ограниченными возможностями в
+                                                    Муйнакском и Кунградском районах.</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">Приятный подарок прекрасной половине</a>
+                                            </li>
+                                            <li>
+                                                <p class="date">06 марта 2018</p>
+                                            </li>
+                                            <li>
+                                                <p class="bold">Неожиданный сюрприз преподнесло прекрасной половине
+                                                    коллектива руководство СП ООО «Uz-Kor Gas Chemical» на Международный
+                                                    женский день. В праздник и выходные этой недели женщины, работающие
+                                                    в СП, получат возможность совершить праздничный тур в
+                                                    достопримечательные места столицы нашей страны.</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="slide_two slide">
+                                <ul class="slide_list">
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">Памяти великого лидера</a>
+                                            </li>
+                                            <li>
+                                                <p class="date">25 января 2018</p>
+                                            </li>
+                                            <li>
+                                                <p class="bold">В соответствии с Постановлением Президента Республики
+                                                    Узбекистан «О праздновании 80-летия со дня рождения первого
+                                                    Президента Республики Узбекистан, выдающегося государственного и
+                                                    политического деятеля Ислама Абдуганиевича Каримова»</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">Предновогодний праздник смеха</a>
+                                            </li>
+                                            <li>
+                                                <p class="date">25 декабря 2017</p>
+                                            </li>
+                                            <li>
+                                                <p class="bold">Одно из самых ожидаемых событий в общественной жизни
+                                                    Устюртского газохимического комплекса – финальный тур КВН-2017 среди
+                                                    цехов и отделов на кубок первичной организации Союза молодежи СП ООО
+                                                    «Uz-Kor Gas Chemical» стало поистине предновогодним праздником
+                                                    смеха, который подарили своим коллегам талантливые, веселые и
+                                                    находчивые молодые специалисты производственных и вспомогательных
+                                                    подразделений.</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">Вернулись с медалями</a>
+                                            </li>
+                                            <li>
+                                                <p class="date">18 декабря 2017
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="bold">С блестящими результатами вернулись подопечные Умида
+                                                    Розиева, инженера СП ООО «Uz-Kor Gas Chemical», с чемпионата и кубка
+                                                    страны по каратэ, прошедшего в Навоийской области.</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">Новая структура</a>
+                                            </li>
+                                            <li>
+                                                <p class="date">05 сентября 2017</p>
+                                            </li>
+                                            <li>
+                                                <p class="bold">Как уже не раз говорилось, большую часть трудового
+                                                    персонала Устюртского газохимического комплекса составляет молодежь.
+                                                    Руководство СП ООО «Uz-Kor Gas Chemical» обращает особое внимание
+                                                    реализации государственной молодежной политики и оказывает
+                                                    всестороннюю поддержку молодым сотрудникам. Благодаря этому
+                                                    специалисты совместного предприятия имеют возможность разносторонне
+                                                    реализовать свой потенциал, участвовать в общественно-политической
+                                                    жизни страны, повышать свои опыт и знания, обучаться за рубежом.</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="slide_three slide">
+                                <ul class="slide_list">
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">Новая школа в поселке «Кырккыз»</a>
+                                            </li>
+                                            <li>
+                                                <p class="date">05 сентября 2017</p>
+                                            </li>
+                                            <li>
+                                                <p class="bold">4 сентября т.г. состоялась торжественная церемония
+                                                    открытия новой современной школы в поселке «Кырккыз» Кунградского
+                                                    района. Школа, рассчитанная на 384 ученических места, построена по
+                                                    заказу СП ООО «Uz-Kor Gas Chemical», сметная стоимость объекта
+                                                    составляет 2 млн. 680 тысяч долларов США.</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">Награждены заслуженно</a>
+                                            </li>
+                                            <li>
+                                                <p class="date">31 августа 2017</p>
+                                            </li>
+                                            <li>
+                                                <p class="bold">Традиционно каждый год в честь праздника независимости
+                                                    наш созидательный трудолюбивый народ удостаивается внимания и
+                                                    почести руководства страны. В этом году около сорока сыновей и
+                                                    дочерей Родины, внесшие достойный вклад в развитие страны, вложившие
+                                                    свой посильный труд в укрепление промышленного потенциала региона,
+                                                    воспитание молодого поколения, совершенствование различных систем
+                                                    производства, образования здравоохранения, строительства награждены
+                                                    государственными наградами Республики Узбекистан.</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">Помощь жителям Муйнака
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <p class="date">31 августа 2017
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="bold">Традиционным для СП ООО «Uz-Kor Gas Chemical» стало
+                                                    проведение благотворительных акций, приуроченных к знаменательным
+                                                    датам. Жители ряда махаллей Кунградского района уже не раз
+                                                    почувствовали доброту и милосердие коллектива совместного
+                                                    предприятия. Практически во все праздничные дни руководство и
+                                                    профсоюзный комитет СП организует подарки для малообеспеченных семей
+                                                    и инвалидов, проживающих в районе.</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="slide_sub-list">
+                                            <li>
+                                                <a href="#" class="blue">Торжество в честь независимости
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <p class="date">29 августа 2017
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="bold">Остались считанные дни до самого ожидаемого и великого
+                                                    праздника нашей страны – Дня независимости. В этом году мы отмечаем
+                                                    26-летие государственного суверенитета республики под девизом: «Моя
+                                                    любовь и преданность – тебе, родной Узбекистан!». Вся страна, каждый
+                                                    регион, махалля, организация и даже семьи готовятся к этому
+                                                    знаменательному дню по-своему, каждый стремится прийти к этому
+                                                    празднику с самыми высокими достижениями. По всей республике
+                                                    проходят праздничные мероприятия в честь этой исторической даты.</p>
+                                            </li>
+                                            <li><a href="#" class="link">Подробнее...</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="slider_navigation">
+                            <button>В начало</button>
+                            <button>«</button>
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>»</button>
+                            <button>В конец</button>
+                        </div>
+                    </div>
+                    <div class="sidebar border_left">
+                        <ul class="sidebar_list">
+                            <li>
+                                <div class="auto_slider"></div>
+                            </li>
+                            <li>
+                                <div class="stonks">
+                                    <h2 class="head">Информеры</h2>
+                                    <div class="stonks_table">
+                                        <div class="stonks_table_top">
+                                            Курсы валют ЦБ с&nbsp;<span id="date"></span>
+                                        </div>
+                                        <div class="stonks_table_bottom">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="http://www.oilgas.uz/" class="sidebar_img">
+                                    <img src="assets/image/aside/oligas.png" alt="stoks">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="production main_content">
+                    <h2 class="head">Продукция</h2>
+                    <div class="tabs">
+                        <div class="tabs_head">
+                            <div class="item active">Полиэтилен высокой плотности</div>
+                            <div class="item">Полипропилен</div>
+                        </div>
+                        <div class="tabs_content">
+                            <div class="tab active">
+                                <div class="tab_img">
+                                    <img src="assets/image/sample_data/hdpe.png" alt="hdpe">
+                                </div>
+                                <ul class="tab_list">
+                                    <li>
+                                        <p>Общая годовая производственная мощность комплекса составляет 387 тыс. тонн
+                                            полиэтилена.</p>
+                                    </li>
+                                    <li>
+                                        <p>На данный момент Заводом полимеров были произведены такие марки полиэтилена
+                                            как FL7000, M8000, MF5000, BL5200, BL6200, J2200, J2210</p>
+                                    </li>
+                                    <li><a href="#" class="link">Подробнее</a></li>
+                                </ul>
+                            </div>
+                            <div class="tab">
+                                <div class="tab_img">
+                                    <img src="assets/image/sample_data/pp.png" alt="hdpe">
+                                </div>
+                                <ul class="tab_list">
+                                    <li>
+                                        <p>Общая годовая производственная мощность комплекса составляет 83 тыс. тонн
+                                            полипропилена.</p>
+                                    </li>
+                                    <li>
+                                        <p>На данный момент Заводом полипропилена произведены следующие марки
+                                            полипропилена J-150, J-160, J-170T, L-270A, Y-120, Y-130, FO-130A, FC-550,
+                                            FR-160, FR-170H, J-550S, J-560S, J-570S, B-310, B-320, J-320, J-330, J-350,
+                                            J-360, J-370, JM-370, JM-375, JM-380</p>
+                                    </li>
+                                    <li><a href="#" class="link">Подробнее</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dealers main_content">
+                    <h2 class="head">Официальные дилеры</h2>
+                    <div class="dealers_list">
+                        <li>
+                            <ul class="dealers_sub-list">
+                                <li>
+                                    <a href="http://ungi.uz/" class="dealers_img">
+                                        <img src="assets/image/dilers/diler_1.png" alt="dealers_img">
+                                    </a>
+                                </li>
+                                <li>
+                                    <p class="bold">AO «Узбекнефтегаз»</p>
+                                </li>
+                                <li>
+                                    <p>100047, Республика Узбекистан <br>
+                                        г. Ташкент, ул. Истикбол 16 <br>
+                                        Телефон: (99871) 207-27-72 <br>
+                                        Факс: (99871) 207-27-72 (добавочный 248)</p>
+                                </li>
+                                <li><a href="http://ungi.uz/" class="link">www.ung.uz</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <ul class="dealers_sub-list">
+                                <li>
+                                    <a href="http://www.lottechem.com" class="dealers_img">
+                                        <img src="assets/image/dilers/diler_2.png" alt="dealers_img">
+                                    </a>
+                                </li>
+                                <li>
+                                    <p class="bold">LOTTE CHEMICAL CORPORATION</p>
+                                </li>
+                                <li>
+                                    <p>7F-11F, Lotte Tower 51, Boramae-ro 5-gil, Dongjak-gu <br>
+                                        Seoul, 156-711 Republic of Korea <br>
+                                        Lotte Chemical Corporation <br>
+                                        Tel: +82-2-829-4114</p>
+                                </li>
+                                <li><a href="http://www.lottechem.com" class="link">www.lottechem.com</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <ul class="dealers_sub-list">
+                                <li>
+                                    <a href="http://www.samsungcnt.com" class="dealers_img">
+                                        <img src="assets/image/dilers/diler_3.png" alt="dealers_img">
+                                    </a>
+                                </li>
+                                <li>
+                                    <p class="bold">SAMSUNG C&T CORPORATION</p>
+                                </li>
+                                <li>
+                                    <p>29th FL., Samsung C&T Corp. Bldg. <br>
+                                        1321-20 Seocho 2 dong, Seocho-gu <br>
+                                        Seoul, 137-956 Republic of Korea <br>
+                                        Tel: +82-2-2145-2692, Fax: +82-2-2023-2692</p>
+                                </li>
+                                <li><a href="http://www.samsungcnt.com" class="link">www.samsungcnt.com </a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Main - End -->
+
+            <!-- Footer - Start -->
+            
+            <footer class="footer main_content">
+                <div class="contact">
+                    <ul class="contact_list">
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel: +998(61)226-70-00">+998(61)226-70-00</a>
+                            
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-fax"></i>
+                            <a href="tel: +998(61)224-90-27">+998(61)224-90-27</a>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a>info@uz-kor.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="co">
+                    <ul class="co_list">
+                        <li>© 2022 Uz-Kor Gas Chemical</li>
+                        <li>Все права защищены.</li>
+                    </ul>
+                </div>
+                <div class="rating">
+                    <a href="#">
+                        <img src="http://cnt0.www.uz/counter/collect?id=31348&r=&pg=http%3A//www.uz-kor.com/index.php/ru/&c=Y&j=N&wh=1366x768&px=24&js=1.3&col=0063AF&t=ffffff&p=DD7900" alt="top-rating" width="88" height="31">
+                    </a>
+                </div>
+            </footer>
+
+            <!-- Footer - End -->
+
         </div>
     </div>
+    <script src="/assets/script/script.js"></script>
 </body>
-
-<script src="/assets/script/script.js"></script>
 
 </html>

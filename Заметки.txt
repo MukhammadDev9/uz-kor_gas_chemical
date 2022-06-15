@@ -1,0 +1,7 @@
+-----------Burger menu
+-----------Pages in Menu
+-----------Pages in Tenders
+-----------Loader JS
+-----------Production Tabs JS
+-----------Stonks Table
+-----------Slider and Auto Slide
